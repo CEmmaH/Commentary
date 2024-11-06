@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/commentarydb
+      # can also use the following way
+      # host: localhost
+      # database: commentarydb
+      # port: 27017  # default, can ignore
+#logging:
+#  level:
+#    org.springframework.boot: DEBUG
+#    org.springframework.data.mongodb: DEBUG
+
